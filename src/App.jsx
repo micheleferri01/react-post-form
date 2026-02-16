@@ -37,8 +37,8 @@ export default function App() {
 
 return (
   <>
-    <div className="container my-4 py-4">
-      <form onSubmit={handleFormSubmit} className="card my-4">
+    <div className="container my-4">
+      <form onSubmit={handleFormSubmit} className="card bg-light my-4 py-4">
         <h1 className="text-center">Create new post</h1>
 
         <div className="card-body d-flex flex-column">
